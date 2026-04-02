@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ticket Management System",
+  title: "Ticket Board",
   description: "Gerencie seus tickets de forma eficiente",
 };
 
