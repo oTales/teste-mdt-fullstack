@@ -1,0 +1,36 @@
+<?php
+
+namespace App\Http\Requests\{{ class }};
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class Create{{ class }}Request extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     */
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     */
+    public function rules(): array
+    {
+        return [
+            {{ validation_rules }}
+        ];
+    }
+
+    /**
+     * Get the custom messages for the validation rules.
+     */
+
+    public function messages(): array
+    {
+    // adicione mensagens personalizadas para as regras de validação
+        return [];
+    }
+}

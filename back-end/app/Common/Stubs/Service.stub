@@ -1,0 +1,13 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Common\Abstracts\AbstractService;
+use App\Domains\{{ class }}\Repositories\{{ class }}Repository;
+
+class {{ class }}Service extends AbstractService
+{
+    public function __construct({{ class }}Repository $repository) {
+        $this->repository = $repository;
+    }
+}

@@ -1,0 +1,13 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Common\Abstracts\AbstractRepository;
+use App\Models\{{ class }};
+
+class {{ class }}Repository extends AbstractRepository
+{
+    public function __construct({{ class }} $model) {
+        $this->model = $model;
+    }
+}

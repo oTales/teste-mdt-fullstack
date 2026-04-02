@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use App\Traits\HasHashIds;
+
+class {{ class }} extends Model
+{
+    use HasFactory,
+
+    protected $table = '{{ table }}';
+
+    // Preenche o UUID7 automaticamente ao criar um novo registro
+    protected static function boot()
+    {
+        parent::boot();
+        static::created(function ($model) {
+            $model->code = $model->hash();
+        });
+    }
+
+    protected $fillable = [
+        {{ fillable_fields }}
+    ];
+
+    // Adicione os relacionamentos, acessores, mutators e outros métodos necessários aqui
+}

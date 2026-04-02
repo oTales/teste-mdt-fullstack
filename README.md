@@ -1,1 +1,0 @@
-# teste-mdt-fullstack

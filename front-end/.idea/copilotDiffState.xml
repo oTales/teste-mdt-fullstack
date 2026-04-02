@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/README.md" />
+              <option name="updatedContent" value="# Sistema de Gestão de Tickets / Kanban&#10;&#10;Um sistema moderno de gestão de tickets e tarefas com visualização em Kanban Board e Tabela, desenvolvido em [Next.js](https://nextjs.org/) (App Router).&#10;&#10;##  Tecnologias Utilizadas&#10;&#10;- **Framework:** [Next.js 16](https://nextjs.org/) (React 19)&#10;- **Estilização:** [Tailwind CSS 4](https://tailwindcss.com/) + UI components baseados no [shadcn/ui](https://ui.shadcn.com/)&#10;- **Gerenciamento de Estado/Dados:** [TanStack React Query](https://tanstack.com/query/latest)&#10;- **Formulários e Validação:** [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)&#10;- **Requisições HTTP:** [Axios](https://axios-http.com/)&#10;&#10;##  Visão Geral e Estrutura&#10;&#10;O aplicativo possui as seguintes funcionalidades principais:&#10;&#10;- **Autenticação:** Telas de Login e Registro (`app/(auth)`).&#10;- **Dashboard:** Visão geral com métricas (`app/(dashboard)/dashboard`).&#10;- **Kanban Board:** Gerenciamento visual dos tickets arrastando e soltando cartões (`app/(dashboard)/kanban`).&#10;- **Lista de Tickets:** Tabela detalhada de todos os tickets com funcionalidades de busca e filtros, além da capacidade de visualizar os detalhes, criar, atualizar e excluir, caso o usuário tenha um perfil aplicável.&#10;&#10;### Estrutura de Pastas e Organização:&#10;&#10;- `/app`: Configuração das rotas da aplicação seguindo o App Router.&#10;- `/components`: Componentes da aplicação divididos por responsabilidade (`layout`, `ui`, `auth`, `tickets`).&#10;- `/hooks`: Hooks customizados, incluindo a integração com a API usando React Query.&#10;- `/lib`: Configurações do Axios, validações Zod e funções utilitárias.&#10;- `/types`: Definições das tipagens de dados usadas no projeto.&#10;&#10;##  Como executar o projeto localmente&#10;&#10;### Pré-requisitos&#10;- [Node.js](https://nodejs.org/en/) (versão 20+ recomendada)&#10;- `npm`, `yarn` ou `pnpm` instaldados.&#10;&#10;### Passos:&#10;&#10;1. **Clone o repositório ou acesse o diretório do projeto:**&#10;   ```bash&#10;   cd untitledponente&#10;   ```&#10;&#10;2. **Instale as dependências:**&#10;   ```bash&#10;   npm install&#10;   # ou&#10;   yarn install&#10;   # ou&#10;   pnpm install&#10;   ```&#10;&#10;3. **Configure as variáveis de ambiente (se houver):**&#10;   *Crie um arquivo `.env` ou `.env.local` na raiz do projeto com base nas requisições da sua API, como por exemplo, a URL base conectada ao front-end.*&#10;&#10;4. **Inicie o servidor de desenvolvimento:**&#10;   ```bash&#10;   npm run dev&#10;   # ou&#10;   yarn dev&#10;   # ou&#10;   pnpm dev&#10;   ```&#10;&#10;5. O aplicativo estará disponível em: [http://localhost:3000](http://localhost:3000).&#10;&#10;##  Build de Produção&#10;&#10;Para compilar a aplicação para produção rode:&#10;&#10;```bash&#10;npm run build&#10;```&#10;&#10;E para iniciar a aplicação já em ambiente finalizado de build, utilize:&#10;&#10;```bash&#10;npm run start&#10;```&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
